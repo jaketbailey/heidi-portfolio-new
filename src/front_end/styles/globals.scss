@@ -1,0 +1,93 @@
+// $theme-colors: (
+//   "primary": #1481BA,
+//   "secondary": #CAD8DE,
+//   "success": #0C7C59,
+//   "danger": #AD5D4E,
+//   "light": #B6D6CC,
+//   "dark": #2B303A,
+// );
+
+$primary:       #F08542 !default;
+$secondary:     #F6F7F8 !default;
+$success:       #0C7C59 !default;
+$info:          #BDD5EA !default;
+$warning:       #F2E11F !default;
+$danger:        #FF3366 !default;
+$light:         #F39D68 !default;
+$dark:          #EE792F !default;
+
+// $theme-colors: (
+//   "primary": #1FF2BE,
+//   "secondary": #F6F7F8,
+//   "success": #0C7C59,
+//   "danger": #FF3366,
+//   "light": #2EC4B6,
+//   "dark": #011627,
+// );
+
+body {
+  font-family: 'Brygada 1918', serif !important;
+}
+
+#about {
+  position: relative;
+}
+
+.nav-container {
+  // display:block !important;
+  position: relative !important;
+}
+
+.brand {
+  // font-family: 'Gloock', serif !important;
+  font-weight: 700 !important;
+  font-size: 2rem !important;
+}
+
+.header {
+  // font-family: 'Gloock', serif !important;
+  font-size: 2rem !important;
+  font-weight: 700 !important;
+}
+
+.header2 {
+  // font-family: 'Gloock', serif !important;
+  // font-weight: 700 !important;
+  font-weight: 600 !important;
+  font-size: 1.5rem !important;
+  margin-top: 1rem !important;
+}
+
+.header3{
+  // font-weight: 700 !important;
+  // font-family: 'Gloock', serif !important;
+  font-weight: 500 !important;
+  font-size: 1.25rem !important;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #000000;
+  font-size: 1.1em;
+}
+.navbar .navbar-nav .nav-link:hover{
+  color: #808080;
+}
+@media only screen and (min-width: 992px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar .nav-item {
+    padding: 0.5em 1em;
+  }
+}
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@400;500;600;700&family=Libre+Caslon+Text:wght@400;700&display=swap');
+
+
+.card {
+  width:25rem;
+}
+
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
