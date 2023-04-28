@@ -11,10 +11,12 @@ export default function Contact() {
             <strong> Phone:</strong>  +44 7972 173430 
         </div>
         <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-3">
-            <strong>  Github: </strong> <a href="https://github.com/jaketbailey">jaketbailey</a>
+            <strong>  Linkedin:</strong>  <a href="https://www.linkedin.com/in/heidi-bailey-669884190/" >Heidi Bailey</a><br/>
         </div>
+      </div>
+      <div class="row justify-content-center">
         <div class="col col-sm-12 col-md-12 col-lg-12 col-xl-3">
-            <strong>  Linkedin:</strong>  <a href="https://www.linkedin.com/in/jaketbailey/" >jaketbailey</a><br/>
+            Created by <a href="https://www.linkedin.com/in/jaketbailey/">Jake Bailey</a> © 2023
         </div>
       </div>
     </div>

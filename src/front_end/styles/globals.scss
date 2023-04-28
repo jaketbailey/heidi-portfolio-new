@@ -17,25 +17,29 @@ $light:         #F39D68 !default;
 $dark:          #EE792F !default;
 
 // $theme-colors: (
-//   "primary": #1FF2BE,
-//   "secondary": #F6F7F8,
-//   "success": #0C7C59,
-//   "danger": #FF3366,
-//   "light": #2EC4B6,
-//   "dark": #011627,
-// );
-
-body {
-  font-family: 'Brygada 1918', serif !important;
+  //   "primary": #1FF2BE,
+  //   "secondary": #F6F7F8,
+  //   "success": #0C7C59,
+  //   "danger": #FF3366,
+  //   "light": #2EC4B6,
+  //   "dark": #011627,
+  // );
+  
+  body {
+    font-family: 'Brygada 1918', serif !important;
 }
 
-#about {
-  position: relative;
-}
-
-.nav-container {
-  // display:block !important;
-  position: relative !important;
+// #about {
+  //   position: relative;
+  // }
+  
+  // .nav-container {
+    //   // display:block !important;
+    //   position: relative !important;
+    // }
+    
+.custom {
+  width: fit-content;
 }
 
 .brand {
@@ -72,21 +76,44 @@ body {
 .navbar .navbar-nav .nav-link:hover{
   color: #808080;
 }
-@media only screen and (min-width: 992px) {
-  .navbar {
-    flex-direction: column;
-  }
-  .navbar .nav-item {
-    padding: 0.5em 1em;
-  }
+
+.nav-item {
+  width: fit-content;
 }
+
+
+// @media only screen and (min-width: 992px) {
+//   .navbar {
+//     flex-direction: column;
+//   }
+//   .navbar .nav-item {
+//     padding: 0.5em 1em;
+//   }
+// }
 
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import url('https://fonts.googleapis.com/css2?family=Brygada+1918:wght@400;500;600;700&family=Libre+Caslon+Text:wght@400;700&display=swap');
 
+// .navbar-brand {
+//   float: center;
+// }
 
 .card {
   width:25rem;
+}
+
+.skill-card {
+  margin: 0.25rem;
+  width: fit-content;
+}
+
+.skill-card:hover {
+  background-color: #F6F7F8;
+}
+
+.card-body-skill{
+  padding: 0.5rem;
+  margin: 0;
 }
 
 // X-Small devices (portrait phones, less than 576px)

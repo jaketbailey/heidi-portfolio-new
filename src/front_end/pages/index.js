@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import About from "../components/About"
-import Portfolio from "../components/Portfolio";
+import Education from "../components/Education";
 import PersonalProfile from "../components/PersonalProfile";
 import Contact from "../components/Contact";
 import Head from "next/head";
@@ -9,13 +9,13 @@ export default function Home() {
   return (
     <div>
         <Head>
-          <title>Jake Bailey</title>
+          <title>Heidi Bailey</title>
           <link rel="icon" href="/images/favicon.ico"/>
         </Head>
       <Navbar/>
       <About/>
       <PersonalProfile/>
-      <Portfolio/>
+      <Education/>
       <Contact/>
     </div>
   );
